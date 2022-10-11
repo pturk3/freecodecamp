@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Certification Project - Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Football Player Survey</h1>
+        <p id="description">Thank you for taking part in our survey!</p>
+    </header>
+    <form id="survey-form" action="">
+        <div class="form-group">
+            <label id="name-label" for="">Name <input type="text" id="name" required placeholder="insert name"></label>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="">Email <input type="email" id="email" required
+                    placeholder="insert a valid email address"></label>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="">Age <input type="number" id="number" min="13" max="120"
+                    placeholder="select your age"></label>
+        </div>
+        <div class="form-group">
+            <label for="">What is your preferred position?
+                <select id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Goalkeeper</option>
+                    <option value="2">Fullback</option>
+                    <option value="3">Centre-back</option>
+                    <option value="4">Centre-Mid</option>
+                    <option value="5">Winger</option>
+                    <option value="6">Attacking Mid-fielder</option>
+                    <option value="7">Attacker</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Which is your preferred foot?</p>
+            <label for="preferred-foot">Right<input type="radio" name="preferred-foot" value="right"></label>
+            <label for="preferred-foot">Left<input type="radio" name="preferred-foot" value="left"></label>
+            <label for="preferred-foot">Both<input type="radio" name="preferred-foot" value="both"></label>
+        </div>
+        <div class="form-group">
+            <p>Which clubs do you want to play for?<span class="clue">(check all that apply)</span></p>
+            <label><input name="prefer" value="as-roma" type="checkbox" class="input-checkbox">AS Roma</label>
+            <label><input name="prefer" value="ac-milan" type="checkbox" class="input-checkbox">AC Milan</label>
+            <label><input name="prefer" value="ss-lazio" type="checkbox" class="input-checkbox">SS Lazio</label>
+            <label><input name="prefer" value="juventus-fc" type="checkbox" class="input-checkbox">Juventus FC</label>
+            <label><input name="prefer" value="inter-milan" type="checkbox" class="input-checkbox">Inter Milan</label>
+            <label><input name="prefer" value="sassuolo" type="checkbox" class="input-checkbox">Sassuolo</label>
+            <label><input name="prefer" value="fiorentina" type="checkbox" class="input-checkbox">Fiorentina</label>
+        </div>
+        <div class="form-group">
+            <p>Any suggestions or comments?</p>
+            <textarea name="" id="additional" cols="30" rows="10"></textarea>
+        </div>
+        <button id="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
