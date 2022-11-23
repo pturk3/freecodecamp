@@ -10,3 +10,11 @@ body {
     font-family: sans-serif;
 
 }
+
+form {
+    background: linear-gradient( 115deg, rgba(69, 136, 49, 0.8), rgba(136, 136, 206, 0.7) );
+    padding: 2.5rem-0.625rem;
+    border-radius: 0.25rem;
+    display: block;
+    margin-top: 0em;
+}
