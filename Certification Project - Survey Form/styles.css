@@ -5,6 +5,13 @@ html {
     background-position: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
 
 body {
     font-family: sans-serif;
@@ -12,6 +19,7 @@ body {
     font-weight: 400;
     line-height: 1.4;
     color: whitesmoke;
+    padding: 2.5rem;
 
 }
 
@@ -32,7 +40,7 @@ form {
     background-color: whitesmoke;
     background-clip: padding-box;
     border: 1px solid slategrey;
-    border-radius: 0.25rem;   
+    border-radius: 0.25rem;
 }
 
 .selections {
@@ -41,4 +49,9 @@ form {
 
 #options {
     display: flex;
+}
+
+.input-textarea {
+    min: height 120px; ;
+    width: 100%;
 }
