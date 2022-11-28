@@ -16,15 +16,16 @@
     </header>
     <form id="survey-form" action="">
         <div class="form-group">
-            <label id="name-label" for="">Name <input type="text" id="name" class="form-control" required placeholder="insert name"></label>
+            <label id="name-label" for="">Name <input type="text" id="name" class="form-control" required
+                    placeholder="insert name"></label>
         </div>
         <div class="form-group">
             <label id="email-label" for="">Email <input type="email" id="email" class="form-control" required
                     placeholder="insert a valid email address"></label>
         </div>
         <div class="form-group">
-            <label id="number-label" for="">Age <input type="number" id="number" class="form-control" min="13" max="120"
-                    placeholder="select your age"></label>
+            <label id="number-label" for="">Age <input type="number" id="number" class="form-control" min="13"
+                    max="120" placeholder="select your age"></label>
         </div>
         <div class="form-group">
             <label for="">What is your preferred position?
@@ -42,19 +43,27 @@
         </div>
         <div class="form-group">
             <p>Which is your preferred foot?</p>
-            <label for="preferred-foot">Right<input type="radio" name="preferred-foot" value="right"></label>
-            <label for="preferred-foot">Left<input type="radio" name="preferred-foot" value="left"></label>
-            <label for="preferred-foot">Both<input type="radio" name="preferred-foot" value="both"></label>
+            <label for="preferred-foot" id="options">Right<input type="radio" name="preferred-foot"
+                    value="right"></label>
+            <label for="preferred-foot" id="options">Left<input type="radio" name="preferred-foot" value="left"></label>
+            <label for="preferred-foot" id="options">Both<input type="radio" name="preferred-foot" value="both"></label>
         </div>
         <div class="form-group">
             <p>Which clubs do you want to play for?<span class="clue">(check all that apply)</span></p>
-            <label><input name="prefer" value="as-roma" type="checkbox" class="input-checkbox">AS Roma</label>
-            <label><input name="prefer" value="ac-milan" type="checkbox" class="input-checkbox">AC Milan</label>
-            <label><input name="prefer" value="ss-lazio" type="checkbox" class="input-checkbox">SS Lazio</label>
-            <label><input name="prefer" value="juventus-fc" type="checkbox" class="input-checkbox">Juventus FC</label>
-            <label><input name="prefer" value="inter-milan" type="checkbox" class="input-checkbox">Inter Milan</label>
-            <label><input name="prefer" value="sassuolo" type="checkbox" class="input-checkbox">Sassuolo</label>
-            <label><input name="prefer" value="fiorentina" type="checkbox" class="input-checkbox">Fiorentina</label>
+            <label id="options"><input name="prefer" value="as-roma" type="checkbox" class="input-checkbox">AS
+                Roma</label>
+            <label id="options"><input name="prefer" value="ac-milan" type="checkbox" class="input-checkbox">AC
+                Milan</label>
+            <label id="options"><input name="prefer" value="ss-lazio" type="checkbox" class="input-checkbox">SS
+                Lazio</label>
+            <label id="options"><input name="prefer" value="juventus-fc" type="checkbox" class="input-checkbox">Juventus
+                FC</label>
+            <label id="options"><input name="prefer" value="inter-milan" type="checkbox" class="input-checkbox">Inter
+                Milan</label>
+            <label id="options"><input name="prefer" value="sassuolo" type="checkbox"
+                    class="input-checkbox">Sassuolo</label>
+            <label id="options"><input name="prefer" value="fiorentina" type="checkbox"
+                    class="input-checkbox">Fiorentina</label>
         </div>
         <div class="form-group">
             <p>Any suggestions or comments?</p>
