@@ -23,16 +23,24 @@ body {
 
 }
 
+/* .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto; */
+}
+
 #name-label, #email-label, #number-label, #position, p {
     font-weight: 600;
 }
+
 
 form {
     background: linear-gradient(115deg, rgba(69, 136, 49, 0.8), rgba(136, 136, 206, 0.7));
     padding: 2.5rem;
     border-radius: 0.25rem;
     display: block;
-    margin-top: 0em;
+    /* margin-top: 0em; */
+    margin: auto 7.125rem;
+    
 }
 
 .form-control {
