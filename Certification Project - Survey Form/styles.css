@@ -39,7 +39,7 @@ form {
     border-radius: 0.25rem;
     display: block;
     /* margin-top: 0em; */
-    margin: auto 7.125rem;
+    margin: auto 10rem;
     
 }
 
@@ -79,7 +79,7 @@ form {
     display: block;
     width: 100%;
     padding: 0.75rem;
-    background: rgb(241, 83, 21);
+    background: rgb(255, 153, 0);
     color: whitesmoke;
     font-size: large;
     font-weight: 600;
