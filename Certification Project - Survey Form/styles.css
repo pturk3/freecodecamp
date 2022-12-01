@@ -28,7 +28,11 @@ body {
     margin: 3.125rem auto 0 auto; */
 }
 
-#name-label, #email-label, #number-label, #position, p {
+#name-label,
+#email-label,
+#number-label,
+#position,
+p {
     font-weight: 600;
 }
 
@@ -40,7 +44,7 @@ form {
     display: block;
     /* margin-top: 0em; */
     margin: auto 10rem;
-    
+
 }
 
 .form-control {
@@ -71,7 +75,8 @@ form {
 }
 
 .input-textarea {
-    min: height 120px; ;
+    min: height 120px;
+    ;
     width: 100%;
 }
 
