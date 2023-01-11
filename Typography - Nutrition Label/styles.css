@@ -45,7 +45,8 @@ p {
     height: 10px;
 }
 
-.lg, .md {
+.lg,
+.md {
     background-color: black;
     border: 0;
 }
@@ -67,4 +68,12 @@ p {
 
 .md {
     height: 5px;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.daily-value p {
+    border-bottom: 1px solid #888989;
 }
