@@ -15,5 +15,16 @@ main {
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
+#img-div {
+    background: #f2e9e4;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
