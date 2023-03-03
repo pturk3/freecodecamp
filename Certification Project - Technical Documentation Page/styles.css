@@ -1,8 +1,8 @@
 html,
 body {
     min-width: 290px;
-    background-color: #e5e5e5;
-    color: black;
+    background-color: #d9d9d9;
+    color: #353535;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 
@@ -16,11 +16,11 @@ body {
     width: 300px;
     height: 100px;
     border-right: solid;
-    border-color: #14213d;
+    border-color: #284b63;
 }
 
 header {
-    color: black;
+    color: #284b63;
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
@@ -46,8 +46,8 @@ img {
 }
 
 #navbar li {
-    color: black;
-    border: #14213d;
+    color: #3c6e71;
+    border: #284b63;
     list-style: none;
     position: relative;
     width: 100%;
@@ -57,7 +57,7 @@ img {
     display: block;
     text-decoration: none;
     padding: 10px 30px;
-    color: black;
+    color: #3c6e71;
 
 }
 
