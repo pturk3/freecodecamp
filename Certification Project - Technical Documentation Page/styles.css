@@ -56,4 +56,14 @@ img {
 #navbar a {
     display: block;
     text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
 }
