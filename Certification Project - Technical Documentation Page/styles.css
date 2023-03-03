@@ -6,3 +6,27 @@ html, body {
     line-height: 1.5;
 
 }
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100px;
+    border-right: solid;
+    border-color: #14213d;
+}
+
+header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+
+img {
+    height: auto;
+    max-width: 50%;
+}
