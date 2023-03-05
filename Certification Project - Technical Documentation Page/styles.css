@@ -5,6 +5,7 @@ body {
     color: #353535;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    scroll-behavior: smooth;
 
 }
 
@@ -14,9 +15,9 @@ body {
     top: 0px;
     left: 0px;
     width: 300px;
-    height: 100px;
+    height: 100%;
     border-right: solid;
-    border-color: #5e548e;
+    border-color: #f48c06;
 }
 
 header {
@@ -31,6 +32,10 @@ header {
 #big_title {
     font-weight: bolder;
     color:#f48c06
+}
+
+#big_title_ubuntu {
+    color: #5e548e;
 }
 
 img {
