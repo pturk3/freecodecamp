@@ -61,6 +61,11 @@ img {
 
 }
 
+#navbar a:hover {
+    color: #fca311;
+    transition: color 0.5s;
+}
+
 #main-doc {
     position: absolute;
     margin-left: 310px;
