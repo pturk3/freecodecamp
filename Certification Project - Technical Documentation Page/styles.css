@@ -22,7 +22,7 @@ body {
 
 header {
     color: #5e548e;
-    border-bottom: 1px solid #f48c06;
+    /* border-bottom: 1px solid #f48c06; */
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
