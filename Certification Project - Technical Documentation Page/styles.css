@@ -40,7 +40,7 @@ header {
 
 img {
     height: auto;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 #main-doc header {
@@ -103,4 +103,7 @@ cite {
     color: #f48c06;
 }
 
+section article {
+    margin: 15px;
+}
 
