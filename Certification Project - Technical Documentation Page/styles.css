@@ -31,7 +31,7 @@ header {
 
 #big_title {
     font-weight: bolder;
-    color:#f48c06
+    color: #f48c06
 }
 
 #big_title_ubuntu {
@@ -83,3 +83,24 @@ img {
     padding: 20px;
     margin-bottom: 110px;
 }
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1;
+    color: #38b000;
+    background-color: #353535;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+cite {
+    color: #f48c06;
+}
+
+
