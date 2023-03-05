@@ -16,15 +16,21 @@ body {
     width: 300px;
     height: 100px;
     border-right: solid;
-    border-color: #284b63;
+    border-color: #5e548e;
 }
 
 header {
-    color: #284b63;
+    color: #5e548e;
+    border-bottom: 1px solid #f48c06;
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
     font-weight: thin;
+}
+
+#big_title {
+    font-weight: bolder;
+    color:#f48c06
 }
 
 img {
@@ -57,7 +63,7 @@ img {
     display: block;
     text-decoration: none;
     padding: 10px 30px;
-    color: #3c6e71;
+    color: #5e548e;
 
 }
 
