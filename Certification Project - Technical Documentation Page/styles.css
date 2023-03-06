@@ -155,6 +155,6 @@ section article {
         padding: 15px;
         padding-left: 10px;
         padding-right: 45px;
-        min-width: 233px;
+        /* min-width: 233px; */
     }
 }
