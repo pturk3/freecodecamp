@@ -14,6 +14,14 @@ h2 {
     text-align: center;
 }
 
+#nav-bar li {
+    display: flex;
+}
+
+.products {
+    display: flex;
+}
+
 .gfp-images {
     height: 20%;
     width: 20%;
