@@ -19,6 +19,10 @@ h3 {
     text-align: center;
 }
 
+iframe {
+    align-items: center;
+}
+
 .products {
     display: flex;
     justify-content: space-between;
