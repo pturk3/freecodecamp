@@ -18,7 +18,8 @@ h2 {
 .products {
     display: flex;
     justify-content: space-between;
-    margin: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -38,6 +39,6 @@ h2 {
 .gfp-images:hover {
     height: 20%;
     width: 100%;
-    max-width: 300px;
+    max-width: 270px;
     border: 2px solid gold;
 }
