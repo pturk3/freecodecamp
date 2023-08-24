@@ -19,6 +19,7 @@ h2 {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .gfp-images {
@@ -27,4 +28,5 @@ h2 {
     max-width: 250px;
     border: 2px solid whitesmoke;
     border-radius: 5%;
+    
 }
