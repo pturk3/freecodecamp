@@ -28,6 +28,7 @@ li {
 
 h2 {
     text-align: center;
+    display: inline;
 }
 
 h3 {
