@@ -22,6 +22,10 @@ nav>ul {
     justify-content: space-around;
 }
 
+li {
+    list-style: none;
+}
+
 h2 {
     text-align: center;
 }
