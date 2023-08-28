@@ -48,6 +48,10 @@ h3 {
     text-align: center;
 }
 
+.demo {
+    display: flex;
+    
+}
 
 .products {
     display: flex;
