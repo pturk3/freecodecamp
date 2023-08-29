@@ -48,9 +48,9 @@ h3 {
     text-align: center;
 }
 
-.demo {
-    display: flex;
-    align-items: center;
+iframe {
+    display: block;
+    margin: auto;
     
 }
 
