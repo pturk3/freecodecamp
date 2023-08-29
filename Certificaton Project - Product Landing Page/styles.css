@@ -50,6 +50,7 @@ h3 {
 
 .demo {
     display: flex;
+    align-items: center;
     
 }
 
