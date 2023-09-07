@@ -5,8 +5,19 @@ html {
 
 }
 
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
 #header-img {
-    display: inline;
     width: 3%;
     height: 3%;
 
