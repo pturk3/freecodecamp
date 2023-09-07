@@ -40,8 +40,8 @@ li {
 
 h1 {
     text-align: center;
-    position: absolute;
-    display: inline;
+    /* position: absolute; */
+
 }
 h6 {
     display: block;
