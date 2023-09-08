@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: black;
     
 }
 
@@ -44,6 +45,7 @@ li {
 
 .product-block {
     display: block;
+    margin: 75px;
 }
 
 h1 {
