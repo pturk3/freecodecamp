@@ -114,6 +114,14 @@ li span {
   padding-top: 20px;
 }
 
+h4 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
 footer > ul {
     display: flex;
     justify-content: flex-end;
