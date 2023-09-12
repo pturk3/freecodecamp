@@ -15,7 +15,7 @@ header {
     min-height: 75px;
     padding: 0px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: black;
     
