@@ -1,5 +1,6 @@
 html {
-    background-color: black;
+    /* background-color: black; */
+    background: linear-gradient(black 55%, yellowgreen);
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 
