@@ -100,12 +100,10 @@ li span {
 
 .gfp-images:hover {
   border: 2px solid yellowgreen;
-  
 }
 
-
 .subscribe {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 footer > span {
